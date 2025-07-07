@@ -70,3 +70,13 @@ input_dict = {
 if st.button("Predict Premium"):
     prediction = predict(input_dict)
     st.success(f"Predicted Health insurance Premium: ₹{prediction}")
+
+st.markdown("---")
+st.markdown("""
+    <div style="text-align: center;">
+        <p>Developed by <a href="https://praneethportfoli0.pythonanywhere.com/" target="_blank">Sai Praneeth</a></p>
+        <p>Powered by Streamlit * Copyright 2025 . Made by Sai Praneeth</p
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
